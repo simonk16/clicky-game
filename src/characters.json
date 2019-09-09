@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Shaggy",
+        "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/shaggy-rogers-scooby-doo-mystery-inc-9.39.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Daphne",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Daphne_Blake.png/150px-Daphne_Blake.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Fred",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Fred_Jones.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Velma",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Diver",
+        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr02/30/23/original-14536-1391143181-6.jpg?downsize=700:*&output-format=auto&output-quality=auto",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Scrappy",
+        "image": "https://vignette.wikia.nocookie.net/scoobydoo/images/b/b6/Scrappy-Doo.png/revision/latest?cb=20171219170617",
+        "clicked": false
+    }
+]
