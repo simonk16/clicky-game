@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import './App.css';
 import Jumbotron from './components/Jumbotron';
@@ -14,9 +14,13 @@ class App extends React.Component {
   }
   
   scoreFunc = (e) => {
+    if (Component.clickFunc) {
       let newScore = this.state.score +1;
       console.log(newScore)
       this.setState({score: newScore})
+    }
+
+      
     
   }
 
@@ -24,16 +28,20 @@ class App extends React.Component {
     
     return (
       <Wrapper>
-          <div style={style}>
-            <div style={style.leftNavDiv}>Clicky Game</div>
-              {this.state.centerMessage}
-              <div style={style.scoreDiv}>Current Score: {this.state.score}</div>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm">Clicky Game</div>
+              <div className="col-sm">{this.state.centerMessage}</div>
+              <div className="col-sm">Current Score:{this.state.score}</div>
             </div>
+          </div>
+            
+            
           <Jumbotron />
           
             <div className="row">
             {characters.map( characters => {
-              return (<ImageCard key={characters.id} id={characters.id} name={characters.name} image={characters.image} clickEvent={this.scoreFunc}/>)
+              return (<ImageCard key={characters.id} id={characters.id} name={characters.name} image={characters.image} clickEvent={this.scoreFunc} />)
             })}
             </div>
             <div className="row">
@@ -48,21 +56,26 @@ class App extends React.Component {
   
 }
 
-const style = {
-  postion: "sticky",
-  top: 0,
-  backgroundColor: "black",
-  color: "white",
-  textAlign: "center",
-  display: "block",
-  height: "75px",
+// const style = {
+//   postion: "sticky",
+//   top: 0,
+//   backgroundColor: "black",
+//   color: "white",
+//   textAlign: "center",
+//   display: "flex",
+//   height: "75px",
+//   borderRadius: "25px",
+//   scoreDiv: {
+//       float: "right",
+//       marginRight: "3rem",
+//       marginTop: "23px"
+//   },
+//   leftNavDiv: {
+//       float: "left",
+//       marginLeft: "3rem",
+//       marginTop: "23px"
+//   },
   
-  scoreDiv: {
-      float: "right"
-  },
-  leftNavDiv: {
-      float: "left"
-  }
-}
+// }
 
 export default App;

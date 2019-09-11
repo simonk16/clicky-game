@@ -2,20 +2,20 @@
     {
         "id": 1,
         "name": "Shaggy",
-        "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/shaggy-rogers-scooby-doo-mystery-inc-9.39.jpg"
-        
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5bbbf70-cfca-4aeb-892b-6ac8c54fb175/dcxl3bd-e9134820-edc1-4683-8324-a7b2353a09ef.png/v1/fill/w_1168,h_684,strp/punching_shaggy_vector_by_vexikku_dcxl3bd-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjc1MCIsInBhdGgiOiJcL2ZcL2M1YmJiZjcwLWNmY2EtNGFlYi04OTJiLTZhYzhjNTRmYjE3NVwvZGN4bDNiZC1lOTEzNDgyMC1lZGMxLTQ2ODMtODMyNC1hN2IyMzUzYTA5ZWYucG5nIiwid2lkdGgiOiI8PTQ2OTAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Jizt0BTPU1D1q-6FynTwi_xLJAtAqaEn6sKTkj-qFCI",
+        "clickCount": 0
     },
     {
         "id": 2,
         "name": "Daphne",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Daphne_Blake.png/150px-Daphne_Blake.png"
-        
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Daphne_Blake.png/150px-Daphne_Blake.png",
+        "clickCount": 0
     },
     {
         "id": 3,
         "name": "Fred",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Fred_Jones.png"
-        
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Fred_Jones.png",
+        "clickCount": 0
     }
     
 ]

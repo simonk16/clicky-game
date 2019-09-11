@@ -2,19 +2,19 @@
     {
         "id": 4,
         "name": "Velma",
-        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png"
-        
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png",
+        "clickCount": 0
     },
     {
         "id": 5,
-        "name": "Diver",
-        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr02/30/23/original-14536-1391143181-6.jpg?downsize=700:*&output-format=auto&output-quality=auto"
-        
+        "name": "Scooby",
+        "image": "https://www.stickpng.com/assets/images/59f87a353cec115efb3623a4.png",
+        "clickCount": 0
     },
     {
         "id": 6,
         "name": "Scrappy",
-        "image": "https://vignette.wikia.nocookie.net/scoobydoo/images/b/b6/Scrappy-Doo.png/revision/latest?cb=20171219170617"
-        
+        "image": "https://vignette.wikia.nocookie.net/p__/images/8/8f/Scrappy-Doo_promo.png/revision/latest?cb=20180311032506&path-prefix=protagonist",
+        "clickCount": 0
     }
 ]
