@@ -20,17 +20,23 @@ export default class ImageCard extends Component {
     
     render() {
         return (
-           <div className="row">
+           
             <div className="card col-sm-4">
-                <img style={style} src={this.props.image} className="img-container" alt={this.props.name} onClick={this.clickFunc}/>
+                <img style={style.img} src={this.props.image} className="img-container" alt={this.props.name} onClick={this.props.clickEvent}/>
             </div>
-            </div>
+           
         )
     }
 }
 
 
 const style = {
-    maxWidth: "18rem",
-    maxHeight: "18rem"
+    img: {
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        maxWidth: "10rem",
+        maxHeight: "10rem"
+        
+    }
 }
