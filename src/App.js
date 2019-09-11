@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './App.css';
-import Nav from './components/Nav'
 import Jumbotron from './components/Jumbotron';
 import characters from './characters.json'
 import ImageCard from './components/ImageCard';
@@ -9,22 +8,44 @@ import Wrapper from './components/Wrapper';
 
 class App extends React.Component {
   state = {
+    centerMessage: "Hey Man",
     score: 1
   }
   
-  
   render() {
+    
     return (
       <Wrapper>
-          <Nav score={this.state.score}/>
+          <nav style={style}>
+            <div style={style.leftNavDiv}>Clicky Game</div>
+              {this.state.centerMessage}
+              <div style={style.scoreDiv}>{this.state.score}</div>
+            </nav>
           <Jumbotron />
           {characters.map( characters => {
-            return (<ImageCard id={characters.id} name={characters.name} image={characters.image} clicked={characters.clicked} key={this.id} onClick={this.clickFunc} />)
+            return (<ImageCard key={characters.id} id={characters.id} name={characters.name} image={characters.image} />)
           })}
       </Wrapper>
     );
   }
   
+}
+
+const style = {
+  postion: "sticky",
+  top: 0,
+  backgroundColor: "black",
+  color: "white",
+  textAlign: "center",
+  display: "block",
+  height: "75px",
+
+  scoreDiv: {
+      float: "right"
+  },
+  leftNavDiv: {
+      float: "left"
+  }
 }
 
 export default App;
