@@ -3,19 +3,37 @@
         "id": 1,
         "name": "Shaggy",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5bbbf70-cfca-4aeb-892b-6ac8c54fb175/dcxl3bd-e9134820-edc1-4683-8324-a7b2353a09ef.png/v1/fill/w_1168,h_684,strp/punching_shaggy_vector_by_vexikku_dcxl3bd-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjc1MCIsInBhdGgiOiJcL2ZcL2M1YmJiZjcwLWNmY2EtNGFlYi04OTJiLTZhYzhjNTRmYjE3NVwvZGN4bDNiZC1lOTEzNDgyMC1lZGMxLTQ2ODMtODMyNC1hN2IyMzUzYTA5ZWYucG5nIiwid2lkdGgiOiI8PTQ2OTAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Jizt0BTPU1D1q-6FynTwi_xLJAtAqaEn6sKTkj-qFCI",
-        "clickCount": 0
+        "clickCount": false
     },
     {
         "id": 2,
         "name": "Daphne",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Daphne_Blake.png/150px-Daphne_Blake.png",
-        "clickCount": 0
+        "clickCount": false
     },
     {
         "id": 3,
         "name": "Fred",
         "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Fred_Jones.png",
-        "clickCount": 0
+        "clickCount": false
+    },
+    {
+        "id": 4,
+        "name": "Velma",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Velma_Dinkley.png/150px-Velma_Dinkley.png",
+        "clickCount": false
+    },
+    {
+        "id": 5,
+        "name": "Scooby",
+        "image": "https://www.stickpng.com/assets/images/59f87a353cec115efb3623a4.png",
+        "clickCount": false
+    },
+    {
+        "id": 6,
+        "name": "Scrappy",
+        "image": "https://vignette.wikia.nocookie.net/p__/images/8/8f/Scrappy-Doo_promo.png/revision/latest?cb=20180311032506&path-prefix=protagonist",
+        "clickCount": false
     }
     
 ]

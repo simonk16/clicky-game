@@ -3,7 +3,7 @@ import React from 'react'
 
 const ImageCard = props => (
     <div className="col-sm">
-        <img className="card-img-top" style={style.img} src={props.image} alt={props.name}/>
+        <img className="card-img-top" style={style.img} src={props.image} alt={props.name} onClick={props.clickEvent}/>
     </div>
     )
     
